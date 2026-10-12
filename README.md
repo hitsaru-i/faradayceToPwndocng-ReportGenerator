@@ -23,8 +23,10 @@ demonstration.
 ![Faraday Workspace with vulnerabilities](./screenshots/1-faraday-project.png)
 - Update the necessary feilds such as complexity, impact, and http request/header fields.
 ![Faraday Vulnerabilities modified](./screenshots/5-faraday-vulnrefinement.png)
-```	NOTE: Evidence fields such as image files in faraday will not translate through API calls. You will need to add these manually in the PWNDOC-NG 'proofs' section
-	NOTE: only CONFIRMED items that are FLAGGED will be sent to PWNDOC-NG documentation```
+
+`	NOTE: Evidence fields such as image files in faraday will not translate through API calls. You will need to add these manually in the PWNDOC-NG 'proofs' section `
+`	NOTE: only CONFIRMED items that are FLAGGED will be sent to PWNDOC-NG documentation `
+
 - Select the filters to include 'id' in the LAST position, as the CSV parser will use the last CSV field to lookup vuln findings in the Faraday API.
 ![Faraday ID field in CSV selection](./screenshots/3-faraday-csv-export-rows-setting.png)
 - Create the appropriate Audit in PWNDOC-NG to recieve the data from Faraday.
@@ -34,5 +36,5 @@ demonstration.
 - Triage the report information by confirming CVSS scoring and completing any necessary fields to render the vulnerability in the docx report.
 ![Incomplte CVSS import in Pwndoc-ng](./screenshots/6-pwndocng-cvssrefine.png)
 ![User completed CVSS defined in Pwndoc-ng](./screenshots/7-pwndocng-cvss-refinement-finished.png)
-- SAVE changes before moving to each new finding
-- Download the report from pwndoc-ng
+- SAVE changes before moving to each new finding.
+- Download the report from pwndoc-ng.
