@@ -22,11 +22,11 @@ demonstration.
 - Import your vulnerability scans and findings into FaradayCE.
 ![Faraday Workspace with vulnerabilities](./screenshots/1-faraday-project.png)
 - Update the necessary feilds such as complexity, impact, and http request/header fields.
-![Faraday Vulnerabilities modified](./5-faraday-vulnrefinement.png)
+![Faraday Vulnerabilities modified](./screenshots/5-faraday-vulnrefinement.png)
 ```	NOTE: Evidence fields such as image files in faraday will not translate through API calls. You will need to add these manually in the PWNDOC-NG 'proofs' section
 	NOTE: only CONFIRMED items that are FLAGGED will be sent to PWNDOC-NG documentation```
 - Select the filters to include 'id' in the LAST position, as the CSV parser will use the last CSV field to lookup vuln findings in the Faraday API.
-![Faraday ID field in CSV selection](3-faraday-csv-export-rows-setting.png)
+![Faraday ID field in CSV selection](./screenshots/3-faraday-csv-export-rows-setting.png)
 - Create the appropriate Audit in PWNDOC-NG to recieve the data from Faraday.
 ![Pwndoc-ng Audit Page Image](./screenshots/4-Pwndoc-ng-auditpage.png)
 - Run the FaradayCEtoPWNDOC-ng-ReportGenerator.py script and observe the import of findings to your pwndoc-ng report, confirm import.
