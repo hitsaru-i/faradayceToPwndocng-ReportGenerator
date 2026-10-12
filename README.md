@@ -33,6 +33,6 @@ demonstration.
 ![Faraday Data imported into Pwndoc-ng](./screenshots/5-Pwndocng-vulnimport.png)
 - Triage the report information by confirming CVSS scoring and completing any necessary fields to render the vulnerability in the docx report.
 ![Incomplte CVSS import in Pwndoc-ng](./screenshots/6-pwndocng-cvssrefine.png)
-~[User completed CVSS defined in Pwndoc-ng](./screenshots/7-pwndocng-cvss-refinement-finished.png)
+![User completed CVSS defined in Pwndoc-ng](./screenshots/7-pwndocng-cvss-refinement-finished.png)
 - SAVE changes before moving to each new finding
 - Download the report from pwndoc-ng
