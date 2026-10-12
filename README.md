@@ -22,7 +22,7 @@ demonstration.
 - Import your vulnerability scans and findings into FaradayCE.
 ![Faraday Workspace with vulnerabilities](./screenshots/1-faraday-project.png)
 - Update the necessary feilds such as complexity, impact, and http request/header fields.
-![Faraday Vulnerabilities modified](./screenshots/5-faraday-vulnrefinement.png)
+![Faraday Vulnerabilities modified](./screenshots/2-faraday-vulnrefinement.png)
 
 `	NOTE: Evidence fields such as image files in faraday will not translate through API calls. You will need to add these manually in the PWNDOC-NG 'proofs' section `
 
