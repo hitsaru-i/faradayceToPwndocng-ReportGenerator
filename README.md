@@ -25,6 +25,7 @@ demonstration.
 ![Faraday Vulnerabilities modified](./screenshots/5-faraday-vulnrefinement.png)
 
 `	NOTE: Evidence fields such as image files in faraday will not translate through API calls. You will need to add these manually in the PWNDOC-NG 'proofs' section `
+
 `	NOTE: only CONFIRMED items that are FLAGGED will be sent to PWNDOC-NG documentation `
 
 - Select the filters to include 'id' in the LAST position, as the CSV parser will use the last CSV field to lookup vuln findings in the Faraday API.
